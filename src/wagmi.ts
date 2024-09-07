@@ -1,8 +1,12 @@
-import { http, cookieStorage, createConfig, createStorage, Chain } from 'wagmi'
-import { mainnet, sepolia } from 'wagmi/chains'
+import { http, cookieStorage, createConfig, createStorage } from 'wagmi'
+import { mainnet, sepolia, type Chain } from 'wagmi/chains'
 import { coinbaseWallet, injected, walletConnect } from 'wagmi/connectors'
-// Morph Holesky Testnet ka configuration
-const morph: Chain = {
+
+// Custom Chain type with 'network' and 'iconUrl' properties
+type CustomChain = Chain & { network?: string; iconUrl?: string }
+
+// Morph Holesky Testnet configuration
+const morph: CustomChain = {
   id: 2810,
   name: 'Morph',
   network: 'morph-holesky-testnet',
@@ -19,10 +23,10 @@ const morph: Chain = {
     default: { name: 'Explorer', url: 'https://explorer-holesky.morphl2.io' },
   },
   iconUrl: 'https://www.hackquest.io/_next/static/media/Morph_logo.10561d9a.png'
-}
+} as const
 
-// Ethereum Holesky ka configuration
-const ethereumHolesky: Chain = {
+// Ethereum Holesky configuration
+const ethereumHolesky: CustomChain = {
   id: 17000,
   name: 'Ethereum Holesky',
   network: 'ethereum-holesky',
@@ -38,15 +42,20 @@ const ethereumHolesky: Chain = {
   blockExplorers: {
     default: { name: 'Explorer', url: 'https://holesky.etherscan.io' },
   },
-}
+} as const
 
 export function getConfig() {
+  const projectId = process.env.NEXT_PUBLIC_WC_PROJECT_ID
+  if (!projectId) {
+    throw new Error("NEXT_PUBLIC_WC_PROJECT_ID environment variable is not set")
+  }
+
   return createConfig({
-    chains: [mainnet, sepolia, morph, ethereumHolesky], // Saare networks add kiye
+    chains: [mainnet, sepolia, morph, ethereumHolesky],
     connectors: [
       injected(),
       coinbaseWallet(),
-      walletConnect({ projectId: process.env.NEXT_PUBLIC_WC_PROJECT_ID }),
+      walletConnect({ projectId }),
     ],
     storage: createStorage({
       storage: cookieStorage,
