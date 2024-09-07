@@ -1,6 +1,6 @@
 import { expect } from "chai";
 import { ethers } from "hardhat";
-import { Counter } from "../typechain-types/Counter"; // Import the generated typechain types
+import { Counter } from "../typechain-types";
 
 describe("Counter Contract", function () {
   let counter: Counter; // Declare the Counter contract instance type
