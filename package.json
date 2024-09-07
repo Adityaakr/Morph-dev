@@ -32,6 +32,7 @@
     "tailwindcss": "^3.4.10",
     "typescript": "^5.4.5",
     "utf-8-validate": "^5.0.2",
+    "ts-node": "^10.9.1",
     "hardhat": "^2.22.10",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0"
   }
