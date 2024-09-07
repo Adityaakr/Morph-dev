@@ -8,7 +8,9 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "paths": {
-      "hardhat/*": ["./node_modules/hardhat/*"]
+      "hardhat/*": ["./node_modules/hardhat/*"],
+      "@typechain-types/*": ["./typechain-types/*"]
+
     },
     "outDir": "dist",
     "declaration": true
