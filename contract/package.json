@@ -20,5 +20,8 @@
     "ethers": "^6.13.2",
     "hardhat": "^2.22.10",
     "typechain": "^8.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }

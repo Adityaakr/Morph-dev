@@ -4,21 +4,25 @@ pragma solidity ^0.8.24;
 // Uncomment this line to use console.log
 // import "hardhat/console.sol";
 
-contract Counter { 
-    int256 public count;
-    constructor(){
-        count = 0;
+contract Counter {
+    uint256 public number;
+
+    function setNumber(uint256 newNumber) public {
+        number = newNumber;
     }
 
-   function getCount() public view returns (int256){
-    return count;
-   }
+    function increment() public {
+        number++;
+    }
 
-   function increment() public {
-    count += 1;
-   }
+    function decrement() public {
+        number--;
+    }
+    function getNumber() public view returns (uint256){
+        return number;
+    }
+    function resetCounter() public {
+        number = 0;
+    }
 
-   function decrement() public{
-    count -= 1;
-   }
 }

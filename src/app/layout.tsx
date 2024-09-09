@@ -30,8 +30,8 @@ export default function RootLayout(props: { children: ReactNode }) {
     <html lang="en">
       <body className='m-3'>
         <Providers initialState={initialState}>
-          <div className='absolute right-5 m-2'>
-          <ConnectButton/>
+          <div className='absolute right-5 m-5'>
+            <ConnectButton/>
           </div>
           {props.children}</Providers>
       </body>
