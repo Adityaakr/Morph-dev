@@ -47,7 +47,7 @@ Open `.env.local` and configure the following environment variables:
 ```bash
 NEXT_PUBLIC_WC_PROJECT_ID=#WalletConnect project ID
 NEXT_TELEMETRY_DISABLED=1
-NEXT_PUBLIC_CONTRACT_ADDRESS=0xAB7391FBbCE3a30bf0418bB3A55F8634dE4629b4 # Add your contract address here
+NEXT_PUBLIC_CONTRACT_ADDRESS=#Add your contract address here
 PRIVATE_KEY= #Your private key
 ```
 
@@ -85,4 +85,5 @@ Resources:
 - **Morph Holesky Bridge:** [Bridge to Holesky Testnet](https://bridge-holesky.morphl2.io/)
 - **Get Holesky Testnet ETH:** [Holesky Testnet Faucet](https://cloud.google.com/application/web3/faucet/ethereum/holesky)
 - **Learn More about MorphL2:** [MorphL2 Documentation](https://docs.morphl2.io/)
-- **Need Help or Want to Chat?** [Contact Aditya](https://twitter.com/adityakrx)
+
+ **Need Help or Want to Chat?** [Contact Aditya](https://twitter.com/adityakrx)
