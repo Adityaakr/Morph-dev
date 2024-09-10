@@ -43,10 +43,10 @@ mv .env.example .env.local
 Open `.env.local` and configure the following environment variables:
 
 ```bash
-NEXT_PUBLIC_WC_PROJECT_ID=// WalletConnect project ID
+NEXT_PUBLIC_WC_PROJECT_ID=#WalletConnect project ID
 NEXT_TELEMETRY_DISABLED=1
 NEXT_PUBLIC_CONTRACT_ADDRESS=0xAB7391FBbCE3a30bf0418bB3A55F8634dE4629b4 # Add your contract address here
-PRIVATE_KEY= # Your private key
+PRIVATE_KEY= #Your private key
 ```
 
 ### 5. Get Your WalletConnect ID
