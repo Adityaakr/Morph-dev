@@ -81,8 +81,8 @@ Now you're ready to start building dApps on Morph!
 
 Resources:
 
-Wallet Setup: MorphL2 Wallet Setup
-Morph Holesky Bridge: Bridge to Holesky Testnet
-Get Holesky Testnet ETH: Holesky Testnet Faucet
-Learn More about MorphL2: MorphL2 Documentation
-Need Help or Want to Chat? Contact Aditya
+Wallet Setup: https://docs.morphl2.io/docs/quick-start/wallet-setup/
+Morph Holesky Bridge: https://bridge-holesky.morphl2.io/
+Get Holesky Testnet ETH: https://cloud.google.com/application/web3/faucet/ethereum/holesky
+Learn More about MorphL2: https://docs.morphl2.io/
+Need Help or Want to Chat? https://twitter.com/adityakrx
