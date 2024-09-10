@@ -4,7 +4,7 @@
 The Morph-dev-kit is a toolkit designed to help you develop, deploy, and integrate smart contracts on the Morph Holesky testnet. It includes tools and configurations to make it easier to build decentralized applications (dApps) with support for wallet connections.
 
 **Tech Stack:**
-- **Frontend:** JavaScript/TypeScript, Tailwind CSS, Nextjs, Ethers.js
+- **Frontend:** JavaScript/TypeScript, Tailwind CSS, Nextjs.
 - **Backend:** Solidity using Hardhat for development and deployment
 - **Integration:** WAGMI for wallet management, and WalletConnect & Rainbow Kit for multi-chain support
 
