@@ -10,6 +10,8 @@ The Morph-dev-kit is a toolkit designed to help you develop, deploy, and integra
 
 **Overview:**
 The Morph-dev-kit is a complete solution for working with smart contracts on the Morph Holesky testnet. The project is already deployed on this testnet, but you can set it up locally to further develop or test the application.
+![image](https://github.com/user-attachments/assets/fec756f6-6ca9-4d86-8a7e-4868473a19d6)
+
 
 **Steps to Set Up Locally:**
 
@@ -76,54 +78,6 @@ You will see options to connect to multiple networks:
 - Holesky
 
 Now you're ready to start building dApps on Morph!
-
-
-Here's the improved version with the added resources section:
-
-The Morph-dev-kit is a toolkit designed to help you develop, deploy, and integrate smart contracts on the Morph Holesky testnet. It includes tools and configurations to make it easier to build decentralized applications (dApps) with support for wallet connections.
-
-Tech Stack:
-
-Frontend: JavaScript/TypeScript, Tailwind CSS
-Backend: Solidity using Hardhat for development and deployment
-Integration: WAGMI for wallet management, and WalletConnect & Rainbow Kit for multi-chain support
-Overview: The Morph-dev-kit is a complete solution for working with smart contracts on the Morph Holesky testnet. The project is already deployed on this testnet, but you can set it up locally to further develop or test the application.
-
-Steps to Set Up Locally:
-
-Clone the Repository:
-First, clone the project repository to your local machine using the following command in your terminal or command prompt:
-
-bash
-Copy code
-git clone https://github.com/Adityaakr/Morph-dev.git
-Navigate to the Project Directory:
-Move into the cloned project folder:
-
-bash
-Copy code
-cd Morph-dev
-Install Dependencies:
-Install all required packages using npm:
-
-bash
-Copy code
-npm install
-Configure Environment Variables:
-Rename .env.example to .env.local:
-
-bash
-Copy code
-mv .env.example .env.local
-Open .env.local and configure the environment variables as needed.
-
-Start the Development Server:
-Run the development server to see the application in action:
-
-bash
-Copy code
-npm run dev
-
 
 Resources:
 
