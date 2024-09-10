@@ -1,30 +1,24 @@
 
 [Screencast from 10-09-24 06:46:53 PM IST.webm](https://github.com/user-attachments/assets/b05e8542-4516-430d-9ba8-d31902ceb8cf)
 
-```md
-# Morph-dev-kit
+The Morph-dev-kit is a toolkit designed to help you develop, deploy, and integrate smart contracts on the Morph Holesky testnet. It includes tools and configurations to make it easier to build decentralized applications (dApps) with support for wallet connections.
 
-**Tech Stack:**  
-- JavaScript/TypeScript  
-- Tailwind CSS  
-- Hardhat  
-- Solidity  
-- WAGMI
+**Tech Stack:**
+- **Frontend:** JavaScript/TypeScript, Tailwind CSS
+- **Backend:** Solidity using Hardhat for development and deployment
+- **Integration:** WAGMI for wallet management, and WalletConnect & Rainbow Kit for multi-chain support
 
-## Overview
-![image](https://github.com/user-attachments/assets/baf64edc-6aaa-4598-9889-cc582e5185fc)
+**Overview:**
+The Morph-dev-kit is a complete solution for working with smart contracts on the Morph Holesky testnet. The project is already deployed on this testnet, but you can set it up locally to further develop or test the application.
 
-The `Morph-dev-kit` is a project designed to help you develop, deploy, and integrate smart contracts using the Morph Holesky testnet.
+**Steps to Set Up Locally:**
 
-This project is already deployed on the Morph Holesky testnet. Follow the instructions below to set it up locally.
+1. **Clone the Repository:**  
+   First, clone the project repository to your local machine using the following command in your terminal or command prompt:
 
-## Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Adityaakr/Morph-dev.git
-```
+   ```bash
+   git clone https://github.com/Adityaakr/Morph-dev.git
+   ```
 
 ### 2. Navigate to the Project Directory
 
