@@ -77,4 +77,4 @@ You will see options to connect to multiple networks:
 
 Now you're ready to start building dApps on Morph!
 
-Problem? Reachout to me - https://twitter.com/notifications
+Problem? Reachout to me - https://twitter.com/adityakrx
